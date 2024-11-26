@@ -1,0 +1,16 @@
+{
+    "entries": [
+      {"timestamp": "2024-11-26 12:04:21", "counts": {"entering": 0, "leaving": 0, "total": 0}},
+      {"timestamp": "2024-11-26 12:27:45", "counts": {"entering": 1, "leaving": 0, "total": 1}},
+      {"timestamp": "2024-11-26 13:09:18", "counts": {"entering": 1, "leaving": 0, "total": 2}},
+      {"timestamp": "2024-11-26 14:42:51", "counts": {"entering": 1, "leaving": 0, "total": 3}},
+      {"timestamp": "2024-11-26 16:53:32", "counts": {"entering": 1, "leaving": 0, "total": 4}},
+      {"timestamp": "2024-11-26 17:22:15", "counts": {"entering": 1, "leaving": 0, "total": 5}},
+      {"timestamp": "2024-11-26 17:38:42", "counts": {"entering": 0, "leaving": 1, "total": 4}},
+      {"timestamp": "2024-11-26 18:03:29", "counts": {"entering": 1, "leaving": 0, "total": 5}},
+      {"timestamp": "2024-11-26 18:19:01", "counts": {"entering": 0, "leaving": 1, "total": 4}},
+      {"timestamp": "2024-11-26 18:34:58", "counts": {"entering": 1, "leaving": 0, "total": 5}},
+      {"timestamp": "2024-11-26 18:51:17", "counts": {"entering": 0, "leaving": 1, "total": 4}},
+      {"timestamp": "2024-11-26 19:00:00", "counts": {"entering": 0, "leaving": 0, "total": 4}}
+    ]
+  }
