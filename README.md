@@ -18,10 +18,8 @@ This project implements a vehicle counter that tracks vehicles entering and leav
 
 To install the required dependencies:
 
-''
-bash pip install ultralytics opencv-python numpy json csv python-dotenv
+bash$: pip install -r requirements.txt
 
-''
 
 Make sure to set up your VIDEO_SOURCE environment variable pointing to your input video file.
 
