@@ -1,17 +1,45 @@
-# What is this repository about?
-Python script to automate vehicle logging coming and going from a video source or a live stream.
+Vehicle Counter
+A Python-based vehicle counting system using YOLOv8 object detection.
 
-# To install dependencies
-python -m venv env
-Activate env ./myenv/Scripts/activate
-add .env
+Description
+This project implements a vehicle counter that tracks vehicles entering and leaving an area based on their position over time. It uses OpenCV for video processing, YOLOv8 for object detection, and saves counts to CSV and JSON files.
 
-VIDEO_SOURCE=
-Has to be mp4, rts or an http(s) stream link
+Features
+Real-time vehicle tracking across video frames
+Entering/leaving counts with timestamps
+Persistent tracking between frames
+Saves counts to CSV and JSON files
+Configurable counting line position
+Installation
 
-run the code
-python vehicle_counter.py
 
-it will log vehicles entering and leaving with timestamps in both csv and json format.
+To install the required dependencies:
+pip install ultralytics opencv-python numpy json csv python-dotenv
 
-Take a look at vehicle_counter.csv or current_totals.json
+Make sure to set up your VIDEO_SOURCE environment variable pointing to your input video file.
+
+Usage
+from vehicle_counter import VehicleCounter
+
+counter = VehicleCounter()
+counter.run()
+This will start the vehicle counter and display the output video.
+
+Technologies Used
+Python 3.7+
+OpenCV (cv2)
+Ultralytics YOLOv8
+NumPy (np)
+JSON
+CSV
+Python-dotenv
+Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+Based on the YOLOv8 example code from Ultralytics
+Uses OpenCV for video processing
+Saves data using standard Python libraries
